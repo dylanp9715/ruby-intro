@@ -15,3 +15,23 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# Create my list in memory
+my_list = ["milk", "eggs", "bacon"]
+
+# Create friend list in memory
+friend_list = ["beer", "cookies", "apples", "milk"]
+
+# Create combined list and store in memory
+combined_list = my_list + friend_list
+
+# Sort list into new list in memory
+sorted_list = combined_list.sort
+
+# Remove non-unique items from the lost
+sorted_list = sorted_list.uniq
+
+# Write list to screen, prepending each item with "buy"
+puts "Buy #{sorted_list[0]}"
+puts "Buy #{sorted_list[1]}"
+puts "Buy #{sorted_list[2]}"
